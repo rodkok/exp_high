@@ -1514,7 +1514,7 @@ function wait_audio_endRoutineEachFrame() {
     // Run 'Each Frame' code from code_4
     if (audio_start_time !== null) {
         if (globalClock.getTime() - audio_start_time >= audio_duration) {
-            continueRoutine = False;
+            continueRoutine = false;
         }
     }
     // check for quit (typically the Esc key)
